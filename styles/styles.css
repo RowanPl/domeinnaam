@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -9,20 +10,31 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
-
-
+/*
+Color scheme
+#899CA0 Gray
+#1C2B32 DarkGreen
+*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-
-
+body{
+    font-family: "Poppins", sans-serif;
+    color: #1c2b32;
+}
+button{
+    font-family: inherit;
+}
 
 /*////////////////////////
     3. Areas
@@ -31,19 +43,130 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+.header-main{
+    background: url("/assets/images/mountains.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0px 500px 0px;
+    margin: auto;
 
 
+}
+h1{
+    font-size: 80px;
+    padding-top: 160px;
+}
+p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.header-input{
+    background: transparent;
+    outline-color:  #1c2b32;
+    border-radius: 25px 0px 0px 25px;
+    padding: 15px;
+    width: 200px;
 
+}
+header button{
+    border-radius: 0px 25px 25px 0px;
+    width: 200px;
+    background-color: #1c2b32;
+    color: white;
+    margin: 40px -5px;
+    padding: 13px;
+}
 /*///////////// 3.2 Testimonial /////////////*/
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+.rev-h2{
+    text-align: center;
+    margin: 30px;
+}
+.rev-square{
+    border-radius: 10px;
+    background-color: white;
+    padding: 2px 6px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+.rev-quote{
+    width: 90px;
+padding-top: 30px;
+    padding-left: 60px;
+   position: absolute;
+}
+main blockquote{
+    padding: 30px 60px 30px 0px;
+    margin-left: 100px;
+    display: inline-block;
+}
+.rev-photo{
+   width: 44px;
+   margin-left: 100px;
+}
+
+.rev-p{
+  display: inline-block;
+    margin-bottom: 50px;
+    vertical-align: 15px;
+}
+
 
 
 
 /*///////////// 3.3 Support /////////////*/
-
+img{
+    width: 100%;
+border-radius: 25px;
+}
+.support-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.support-text{
+    font-size: 16px;
+    margin: 10px;
+}
+main button{
+     border-radius: 40px;
+     background-color: #1c2b32;
+     color: white;
+     padding: 20px 20px 20px 20px;
+outline-color: #1c2b32;
+ }
+main a {
+    color:#899CA0 ;
+}
+a:hover{
+    text-decoration-line: none;
+}
 
 
 /*///////////// 3.4 Faq /////////////*/
-
+.faq-text{
+    border-radius: 13px;
+    background-color: #899CA0;
+    padding: 2px 6px;
+    margin: 0px;
+    color: white;
+    font-size: 12px;
+}
+.faq:hover{
+    cursor: pointer;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
+.footer{
+    background-color: #1c2b32;
+    padding: 30px;
+}
+.footer-p{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
