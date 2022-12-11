@@ -94,15 +94,16 @@ main{
 
 }
 .rev-quote{
-    width: 90px;
-padding-top: 30px;
-    padding-left: 60px;
-   position: absolute;
+    width: 25px;
+    padding-top: 30px;
+    margin-left: 60px;
+    position: absolute;
 }
 main blockquote{
     padding: 30px 60px 30px 0px;
     margin-left: 100px;
     display: inline-block;
+    font-weight: 300;
 }
 .rev-photo{
    width: 44px;
@@ -113,6 +114,7 @@ main blockquote{
   display: inline-block;
     margin-bottom: 50px;
     vertical-align: 15px;
+    margin-left: 20px;
 }
 
 
@@ -164,6 +166,7 @@ a:hover{
 .footer{
     background-color: #1c2b32;
     padding: 30px;
+    margin-top: 100px;
 }
 .footer-p{
     text-align: center;
